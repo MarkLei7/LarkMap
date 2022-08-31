@@ -19,3 +19,10 @@ export {
   lineLayerStyleFlatToConfig as LineLayerStyleFlatToConfig,
 } from './LineLayerStyle/helper';
 export type { LineLayerStyleAttributeValue, LineLayerStyleAttributeProps } from './LineLayerStyle/types';
+
+export { HexbinLayerStyleAttribute, HexbinLayerStyleAttributeSchemaField } from './HexbinLayerStyle';
+export {
+  hexbinLayerStyleConfigToFlat as HexbinLayerStyleConfigToFlat,
+  hexbinLayerStyleConfigToFlat as HexbinLayerStyleFlatToConfig,
+} from './HexbinLayerStyle/helper';
+export type { HexbinLayerStyleAttributeValue, HexbinLayerStyleAttributeProps } from './HexbinLayerStyle/types';
